@@ -1,0 +1,30 @@
+Superconductivity: the new high critical temperature superconductors
+February 24, 2009
+
+(PhysOrg.com) -- The paper published in the Journal of the American Chemical Society (JACS) by a team led by professor Francesc Illas of the University of Barcelona's Department of Physical Chemistry and director of the Laboratory of Computational Materials Science (CMSL) will help to broaden our understanding of the nature of superconducting materials and of the origin of the superconductivity phenomenon in high critical temperature materials.
+
+ 
+
+Superconductors are materials that conduct electrical current with zero resistance at low temperatures. Superconductivity was discovered in 1911, and the researchers in this area of solid state physics have been regular recipients of the Nobel Physics Prize: H. K. Onnes (1913), who discovered this extraordinary phenomenon; J. Bardeen, L. Cooper and R. Schrieffer (1972), for the BCS Theory of Superconductivity, which explains how electron pairs are formed Cooper pairs and how they conduct electrical current with zero resistance; J.C. Bednorz and K.A. Müller (1987), for their work with ceramic superconducting materials (copper oxides or cuprates) at temperatures above 35 K (-238 ºC) and beyond the boiling point of liquid nitrogen (-196 ºC).
+
+“No theory has been able to account properly for high temperature superconductivity, although it seems to bear a strong relationship with the magnetic properties of materials,” explains Francesc Illas, who is also director of the UB’s Institute of Theoretical and Computational Chemistry (IQTCUB).
+
+In 2008, the discovery of a new family of high critical temperature iron and arsenic superconductors (AsFe) marked a second major revolution in the world of superconductivity. The new compounds, which do not contain copper (Cu) but which have oxygen (O), fluor (F) or arsenic (As) and iron (Fe), will help scientists to solve some of the mysteries in the area of solid state physics.
+
+But are these two high temperature superconductor families really so different? For Francesc Illas, “the main purpose of our work is to stress that these new materials are not as different from cuprates as originally thought. This point is fundamental for defining a unified approach to the two families of superconducting materials.”
+
+According to the new study, the two families of superconducting materials share a similar electronic structure: specifically, Fe and As compounds are antiferromagnetic and exhibit a strong spin frustration, that is, strong magnetic interactions that make the interpretation of experiments difficult.
+
+Another innovation mentioned in the article is the use of sophisticated techniques such as hybrid functionals for the study of electronic structure. “In cuprates,” says Illas, “the most commonly used methodologies are standard LDA (Local Density Approximation) and GGA (Generalized Gradient Approximation), which predict these systems to have a strong metallic character. However, experimental studies on the undoped parent compounds - superconductivity only appears when doping these materials - have shown that cuprates have insulating properties and are antiferromagnetic, but not metallic”. Therefore, the study of these systems will require more elaborate methods than the standard LDA and GGA methods to obtain a satisfactory description of their electronic structure and properties. 
+
+ 
+
+According to the experts, studying the electronic structure of the new FeAs based compounds using LDA and GGA also gives erroneous results, as in the case of cuprates. “These techniques,” says Illas, “are unable to give an accurate description of strongly correlated systems (cuprates, new superconductor families, and so on); these limitations have been frequently described in the literature.” More sophisticated approaches are necessary to describe the electronic structure and properties of these magnetic materials.
+
+The discovery of high critical temperature superconductivity is one of the most remarkable chapters in modern science. It is a major breakthrough in developing new technologies and compounds in solid state physics and materials science. Physics experts dream of establishing a satisfactory theoretical model of the electronic structure in order to understand the formation of the superconducting phase, and then to be able to synthesize superconductors at room temperature. This objective seems attainable but not in a near future. For the time being, the most realistic approach is to try to understand the properties of undoped superconducting parent compounds and to progressively understand the effect of doping in the electronic structure of these materials, an area of research in which Illas’s group is one of the leaders in Spain.
+
+Other participants in the study are Ibério de P. R. Moreira (UB) and Jacek C. Wojdel, currently at the ICMAB-CSIC. The study was carried out with the collaboration of the Barcelona Supercomputing Center (BSC) and the Catalonia Supercomputing Centre (CESCA).
+
+More information: Chemical Bonding and Electronic and Magnetic Structure in LaOFeAs, Jacek C. Wojdel, Ibrio de P. R. Moreira, Francesc Illas, Journal of the American Chemical Society 2009 131 (3), 906-907
+
+Provided by University of Barcelona, Spain
