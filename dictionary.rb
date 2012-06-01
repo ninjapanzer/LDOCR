@@ -4,10 +4,11 @@ class WordListProcessor
     Dir.foreach('DataFiles/dictionary_source/') do |f|
       if f.match('index')
         puts f
-        wordCollection = Array.new
+        wordCollection = Hash.new
         IO.foreach('DataFiles/dictionary_source/'+f) do |line|
           if(line[0] + line[1] != '  ')
-            wordCollection.push(WordListObject.new(line))
+            wordObj = WordListObject.new(line)
+            wordCollection[wordObj.word] = wordObj
           end
         end
         dictHash[f] = wordCollection
@@ -31,5 +32,3 @@ class WordListObject
     @definition = row.last
   end
 end
-
-#something = WordListProcessor.LoadDictionary

@@ -1,3 +1,4 @@
-def readFile(file)
-  puts "HI"
-end
+require 'dictionary'
+
+WORDLISTHASH = WordListProcessor.LoadDictionary
+
