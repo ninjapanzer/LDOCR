@@ -1,17 +1,20 @@
+File  = 'DataFiles/1974.txt'
+
 class DocumentProcessor
   def initialize(file)
-    IO.foreach('DataFiles/dictionary_source/'+f) do |line|
-      document = DocumentModel.new(f)
-      document.element = line
-      
+    document = DocumentModel.new("document")
+    IO.foreach(file) do |line|
+      line = Canonicalization(line);
+      puts line
     end
   end
-  def self.IdentifyWords()
+  def IdentifyWords()
   end
-  def self.Canonicalization(string) # REMOVES Special Characters and Sets the string to lower case
-    return string.gsub(%r[\,\"\/\\'],"").downcase
+  def Canonicalization(string) # REMOVES Special Characters and Sets the string to lower case
+    return string.gsub(/[,"':;\/\\]/,"").downcase.squeeze(" ")
+    
   end
-  def self.OrganizeDocument()
+  def OrganizeDocument()
   end
 end
 
