@@ -8,8 +8,8 @@ class DocumentProcessor
   end
   def self.IdentifyWords()
   end
-  def self.Canonicalization(string)
-    return string.gsub("%r[\,,\!,']","")
+  def self.Canonicalization(string) # REMOVES Special Characters and Sets the string to lower case
+    return string.gsub(%r[\,\"\/\\'],"").downcase
   end
   def self.OrganizeDocument()
   end
@@ -28,8 +28,9 @@ class BlockModel
   attr_accessor :element, :type, :blocks, :keywords
   def initialize(element)
     @element = element
-    @blocks = Array.new
-    @keywords = Array.new
+    @blocks = []
+    @keywords = []
+    @type = []
   end
 end
 
