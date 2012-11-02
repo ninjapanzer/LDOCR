@@ -1,11 +1,11 @@
 class WordListProcessor
   def self.LoadDictionary()
     dictHash = Hash.new
-    Dir.foreach('DataFiles/dictionary_source/') do |f|
+    Dir.foreach('Datafiles/dictionary_source/') do |f|
       if f.match('index')
         puts f
         wordCollection = Hash.new
-        IO.foreach('DataFiles/dictionary_source/'+f) do |line|
+        IO.foreach('Datafiles/dictionary_source/'+f) do |line|
           if(line[0] + line[1] != '  ')
             wordObj = WordListObject.new(line)
             wordCollection[wordObj.word] = wordObj
