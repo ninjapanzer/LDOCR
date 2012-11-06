@@ -1,3 +1,3 @@
-require 'app'
+require_relative 'app'
 
-readFile("1")
+#readFile("1")

@@ -3,6 +3,18 @@
 	{
 		"selected_items":
 		[
+			[
+				"border-c",
+				"border-color"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"ba",
+				"background"
+			]
 		]
 	},
 	"buffers":
@@ -32,10 +44,22 @@
 	},
 	"file_history":
 	[
+		"/Users/samuraipanzer/Dropbox/Workspace/nurelm/responsiveTester/responsive.html",
+		"/Users/samuraipanzer/Dropbox/Workspace/nurelm/responsiveTester/proxy/webroute_sinatra.rb",
+		"/Users/samuraipanzer/Dropbox/Workspace/nurelm/responsiveTester/proxy/proxyRunner.rb",
+		"/Users/samuraipanzer/Dropbox/Workspace/nurelm/responsiveTester/proxy/spec/proxy_spec.rb",
+		"/Users/samuraipanzer/Dropbox/Workspace/nurelm/responsiveTester/proxy/proxy.rb",
+		"/Users/samuraipanzer/Dropbox/Workspace/nurelm/responsiveTester/index.html",
+		"/Users/samuraipanzer/Dropbox/Workspace/nurelm/responsiveTester/responsive.css",
+		"/Users/samuraipanzer/Dropbox/Workspace/nurelm/responsiveTester/responsive.js",
+		"/Users/samuraipanzer/Dropbox/Workspace/nurelm/responsiveTester/README.md",
+		"/Users/samuraipanzer/Dropbox/Workspace/nurelm/responsiveTester/mattkersleyRespTester/responsive.js",
+		"/Users/samuraipanzer/Dropbox/Workspace/nurelm/responsiveTester/proxy/http",
+		"/Users/samuraipanzer/Dropbox/Workspace/nurelm/responsiveTester/proxy/spec/spec_helper.rb"
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -77,7 +101,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 31.0
 	},
 	"layout":
 	{
@@ -102,6 +126,10 @@
 		]
 	},
 	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 412.0
+	},
 	"replace":
 	{
 		"height": 0.0
@@ -117,16 +145,20 @@
 	},
 	"select_project":
 	{
-		"height": 0.0,
+		"height": 500.0,
 		"selected_items":
 		[
+			[
+				"",
+				"/Users/samuraipanzer/Dropbox/Workspace/theEdge/node1/node1.sublime-project"
+			]
 		],
-		"width": 0.0
+		"width": 380.0
 	},
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 254.0,
+	"side_bar_width": 182.0,
 	"status_bar_visible": true
 }
