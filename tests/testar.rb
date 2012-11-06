@@ -4,4 +4,12 @@ require_relative '../models/type'
 
 w = Word.new
 t = Type.new
-w.type = t
+
+Word.transaction do
+  t.words.push w
+  t.save!
+  puts t.words
+  puts w.type == t
+  puts w.id
+  raise ActiveRecord::Rollback
+end
