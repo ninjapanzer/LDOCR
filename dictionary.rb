@@ -1,3 +1,5 @@
+require_relative 'models'
+
 class WordListProcessor
   def self.LoadDictionary()
     dictHash = Hash.new
@@ -16,6 +18,24 @@ class WordListProcessor
     end
     return dictHash
   end
+
+  def self.Store_Dictionary()
+    Dir.foreach('Datafiles/dictionary_source/') do |f|
+      if f.match('index')
+        puts f
+        IO.foreach('Datafiles/dictionary_source/'+f) do |line|
+          if(line[0] + line[1] != '  ')
+              wordObj = WordListObject.new(line)
+              word = Word.create
+              word.type = Type.find_by_name wordObj.type
+              word.word = wordObj.word
+              word.save
+            end
+        end
+      end
+    end
+  end
+
 end
 
 class WordListObject
