@@ -1,6 +1,16 @@
 require 'active_record'
 
-class Type < ActiveRecord::Base
+class Type
 	#attr_accessor :name
-	has_many :words
+
+  TYPES = [
+    ADJECTIVE   = 'adj',
+    VERB        = 'verb',
+    ADVERB      = 'adv',
+    NOUN        = 'noun',
+    ARTICLE     = 'art',
+    PREPOSITION = 'prep',
+    CONJUNCTION = 'conj'
+  ]
+
 end
