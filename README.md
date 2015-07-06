@@ -1,4 +1,6 @@
 [![Build Status](https://travis-ci.org/ninjapanzer/LDOCR.svg?branch=master)](https://travis-ci.org/ninjapanzer/LDOCR)
+[![Code Climate](https://codeclimate.com/github/ninjapanzer/LDOCR/badges/gpa.svg)](https://codeclimate.com/github/ninjapanzer/LDOCR)
+[![Test Coverage](https://codeclimate.com/github/ninjapanzer/LDOCR/badges/coverage.svg)](https://codeclimate.com/github/ninjapanzer/LDOCR/coverage)
 
 06-03-2012
 
