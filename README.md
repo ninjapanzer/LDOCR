@@ -1,4 +1,4 @@
-https://travis-ci.org/ninjapanzer/LDOCR.svg?branch=master
+[![Build Status](https://travis-ci.org/ninjapanzer/LDOCR.svg?branch=master)](https://travis-ci.org/ninjapanzer/LDOCR)
 
 06-03-2012
 
