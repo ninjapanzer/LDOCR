@@ -7,6 +7,6 @@ end
 
 desc "Load Dictionary"
 task :load_dictionary do
-  require './dictionary_processor'
+  require './lib/dictionary_processor'
   DictionaryProcessor.new.load_dictionary
 end

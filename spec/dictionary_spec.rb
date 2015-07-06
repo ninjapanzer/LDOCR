@@ -1,5 +1,5 @@
 require 'spec_helper'
-require_relative '../dictionary_processor'
+require_relative '../lib/dictionary_processor'
 
 describe 'DictionarySpec' do
   let(:processor) { DictionaryProcessor.new datafiles: 'spec/fixtures/word_sources/' }
