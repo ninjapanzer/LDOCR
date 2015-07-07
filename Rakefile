@@ -13,6 +13,12 @@ task :load_dictionary do
   DictionaryProcessor.new.load_dictionary
 end
 
+desc "Load Document"
+task :load_document do
+  require './lib/document_processor'
+  DocumentProcessor.new('DataFiles/1974.txt')
+end
+
 desc "test"
 task :spec do
   sh 'rspec spec'

@@ -1,20 +1,28 @@
-File  = 'DataFiles/1974.txt'
-
 class DocumentProcessor
+  SENTENCE = /[^.!?\s][^.!?]*(?:[.!?](?!['"]?\s|$)[^.!?]*)*[.!?]?['"]?(?=\s|$)/
+  CANNONICALIZE = ->(string) { string.gsub(/[,"':;\.\/\\]/,"").downcase.squeeze(" ") }
+
   def initialize(file)
-    document = DocumentModel.new("document")
+    document = Document.create filename: file
     IO.foreach(file) do |line|
-      line = Canonicalization(line);
-      puts line
+      sentences = line.scan(SENTENCE).map &CANNONICALIZE
+      sentences.each do |s|
+        sentence = Sentence.create document_id: document.id
+        words = s.split(' ')
+        words.each_with_index do |w,i|
+          find_word = Word.where(word: w).first
+          word_id = find_word.id unless find_word.nil?
+          attrs = {
+            word_id: word_id,
+            sentence_position: i,
+            sentence_id: sentence.id,
+            document_id: document.id,
+            document_position: nil
+          }
+          Element.create attrs
+        end
+      end
     end
-  end
-  def IdentifyWords()
-  end
-  def Canonicalization(string) # REMOVES Special Characters and Sets the string to lower case
-    return string.gsub(/[,"':;\/\\]/,"").downcase.squeeze(" ")
-    
-  end
-  def OrganizeDocument()
   end
 end
 
@@ -23,7 +31,7 @@ class DocumentModel
   def initialize(title)
     @title = title
     @blocks = Array.new
-    @keywords = Array.new 
+    @keywords = Array.new
   end
 end
 
@@ -41,6 +49,6 @@ class WordModel
   attr_accessor :word, :type, :dict
   def initialize(word)
     @word = word
-    
+
   end
 end
